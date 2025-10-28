@@ -1,0 +1,4 @@
+- [x] Create lib/chat_list_screen.dart with ChatListScreen class
+- [x] Update lib/bottom_navbar.dart to import chat_list_screen.dart and use ChatListScreen()
+- [x] Delete lib/chat_screen.dart
+- [x] Run flutter analyze to check for errors
