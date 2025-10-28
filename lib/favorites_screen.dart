@@ -32,14 +32,18 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         title: const Text("Favorites"),
         backgroundColor: Colors.deepOrangeAccent,
       ),
-      body: favorites.isEmpty
+      body:
+          // no favorites
+          favorites.isEmpty
           ? const Center(
               child: Text(
                 "No favorites yet ❤️",
                 style: TextStyle(fontSize: 18),
               ),
             )
-          : ListView.builder(
+          :
+            // show favorites list
+            ListView.builder(
               itemCount: favorites.length,
               itemBuilder: (context, index) {
                 final item = favorites[index];
