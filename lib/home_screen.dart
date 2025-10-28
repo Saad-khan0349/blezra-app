@@ -10,6 +10,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  // Sample product datas
   final List<Map<String, dynamic>> products = [
     {
       'name': 'iPhone 12',
